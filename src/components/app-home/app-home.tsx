@@ -54,7 +54,7 @@ export class AppHome {
             Aun hay funcionalidades por realizar. Comparte con tus familiares y amigos
 
            </p>
-          <a href="#" class="btn-repo">
+          <a href="https://github.com/SergioEric/covid19-colombia-stencilapp.git" class="btn-repo">
             repo
               <ion-icon name="logo-github" size="23"></ion-icon>
           </a>

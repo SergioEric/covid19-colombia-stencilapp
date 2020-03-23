@@ -1,22 +1,6 @@
-# Ionic PWA Toolkit
 
-The PWA Toolkit is a starting point for building Progressive Web Apps using Ionic and Stencil.
-This combination of tools gives you the ability to build a fast, efficient PWA out of the box.
-
-For more info check out our [homepage](https://ionicframework.com/pwa/toolkit)!
-
-## Features
-
-* `@ionic/core` for the UI.
-* Stencil for the application logic and routing
-* Push Notifications setup
-* Unit Tests
-* Pre-rendering
-* Lazy-loading and code splitting
-* Intelligent Polyfills
-* Modern mode: ES6/ESM for new browser, ES5 for older
-* Service Worker, App manifest, iOS meta tags
-* Theming using CSS variables
+App Screen Shot: 
+<img src="preview/Screenshot_2020-03-23-16-23-22-261.jpg" width="500" alt="covid-19-colombia" />
 
 ## Getting Started
 

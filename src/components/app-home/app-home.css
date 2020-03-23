@@ -1,0 +1,123 @@
+.md {
+    --ion-background-color: #4D5CF0;
+}
+
+figure {
+    margin: 0
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif !important;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.girl_w_flag {
+    max-width: 200px;
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-content: center;
+    align-items: center; */
+    /* align-self: center; */
+}
+
+.my-card {
+    min-width: 111px;
+    min-height: 111px;
+    color: #FFF;
+    border-radius: 22px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 5px;
+
+}
+.my-card p{
+    margin: 0;
+}
+.my-card-name{
+    font-size: 16px;
+    margin-bottom: 15px !important;
+}
+.my-card-value{
+    font-size: 39px;
+}
+.Confirmed {
+    background-color: #FFCC33;
+}
+.Recovered {
+    background-color: #FF7442;
+}
+
+.Deaths {
+    background-color: #4D5CF0;
+    border: 1px solid #FFF;
+}
+
+
+.wrapper-cards{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.bottom_box{
+    min-height: 170px;
+    background-color: #FFFF00;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0 ;
+    left: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+}
+.bottom_box p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+span{
+    color: brown;
+}
+
+.btn-update{
+    color:#38383A;
+    padding: 12px;
+    position: relative;
+    top: 12px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: #FFF;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.btn-update:active{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+
+}
+
+.btn-repo{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+
+}
+
+

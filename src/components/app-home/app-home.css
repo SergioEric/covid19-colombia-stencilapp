@@ -2,6 +2,10 @@
     --ion-background-color: #4D5CF0;
 }
 
+.ios {
+    --ion-background-color: #4D5CF0;
+}
+
 figure {
     margin: 0
 }
@@ -28,7 +32,7 @@ figure {
     min-height: 111px;
     color: #FFF;
     border-radius: 22px;
-    padding: 15px 15px;
+    padding: 9px 9px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif !important;
     display: flex;
@@ -40,7 +44,7 @@ figure {
     margin: 0;
 }
 .my-card-name{
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 15px !important;
 }
 .my-card-value{
@@ -50,12 +54,12 @@ figure {
     background-color: #FFCC33;
 }
 .Recovered {
-    background-color: #FF7442;
+    background-color: #4D5CF0;
+    border: 1px solid #FFF;
 }
 
 .Deaths {
-    background-color: #4D5CF0;
-    border: 1px solid #FFF;
+    background-color: #FF7442;
 }
 
 

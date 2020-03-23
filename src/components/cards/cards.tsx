@@ -8,17 +8,17 @@ const Cards = (props, children)=> {
   
     if (props.name == "Confirmed") {
       return [<div class="my-card Confirmed">
-        <p class="my-card-name">{ props.name }</p>
+        <p class="my-card-name">Confirmados</p>
         <p class="my-card-value">{ props.value }</p>
       </div>, children]
     }  else if (props.name == "Deaths") {
       return <div class="my-card Deaths">
-        <p class="my-card-name">{ props.name }</p>
+        <p class="my-card-name">Muertes</p>
         <p class="my-card-value">{ props.value }</p>
       </div>
     } else if (props.name == "Recovered") {
       return <div class="my-card Recovered">
-        <p class="my-card-name">{ props.name }</p>
+        <p class="my-card-name">Recuperado</p>
         <p class="my-card-value">{ props.value }</p>
       </div>
     }
